@@ -1,5 +1,6 @@
 package department;
 import model.SuperDepartment;
+
 public class HrDepartment extends SuperDepartment {
 	
 	public String departmentName(){
@@ -14,6 +15,4 @@ public class HrDepartment extends SuperDepartment {
 	public String doActivity(){
 		return "Team Lunch";
 	}
-	
-
 }

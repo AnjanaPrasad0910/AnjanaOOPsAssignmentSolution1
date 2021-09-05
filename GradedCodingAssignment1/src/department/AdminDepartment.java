@@ -1,5 +1,6 @@
 package department;
 import model.SuperDepartment;
+
 public class AdminDepartment extends SuperDepartment {
 	
 	public String departmentName(){
@@ -11,5 +12,4 @@ public class AdminDepartment extends SuperDepartment {
 	public String getWorkDeadline(){
 		return "Complete by EOD";
 	}
-
 }

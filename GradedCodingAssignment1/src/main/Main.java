@@ -16,7 +16,7 @@ public class Main {
 		System.out.println(hr.doActivity());
 		System.out.println(hr.getTodaysWork());
 		System.out.println(hr.getWorkDeadline());
-		System.out.println(hr.isTodayAHoliday()+"\n\n");
+		System.out.println(hr.isTodayAHoliday()+"\n");
 		
 		System.out.println("Welcome to "+tech.departmentName());
 		System.out.println(tech.getTodaysWork());
@@ -25,3 +25,10 @@ public class Main {
 		System.out.println(tech.isTodayAHoliday());
 	}
 }
+/*
+ I have created 3 different packages 
+ 1. main - which has the main driver class
+ 2. model - which has the super department class (which is the parent class)
+ 3. department - which has the 3 child class HR, Admin and Tech
+ */
+ 

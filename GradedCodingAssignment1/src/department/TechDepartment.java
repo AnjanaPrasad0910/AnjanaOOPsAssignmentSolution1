@@ -1,5 +1,6 @@
 package department;
 import model.SuperDepartment;
+
 public class TechDepartment extends SuperDepartment {
 	
 	public String departmentName(){
@@ -14,6 +15,4 @@ public class TechDepartment extends SuperDepartment {
 	public String getTechStackInformation(){
 		return "Core Java";
 	}
-	
-
 }
